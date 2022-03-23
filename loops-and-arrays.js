@@ -31,7 +31,7 @@ console.log(numbers)
  for (let i = 0; i <numbers.length; i++)
      if (numbers[i] % 2 ===0) {
          numbers[i] = numbers[i] * 2
-     } else  if (numbers[i] % 2 !==0) {
+     } else  if (numbers[i] % 2 !==0) { //ook uitkomst is fauls toegevoegd dit is duidelijker bij grote programmas
 
          numbers[i] = numbers[i] * 3
      }
