@@ -25,11 +25,14 @@ for (let i = 0; i < names.length; i++) {
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
-const numbers = [2, 4, 5, 29, 38]; {
+const numbers = [2, 4, 5, 29, 38];
+console.log(numbers)
+{
  for (let i = 0; i <numbers.length; i++)
      if (numbers[i] % 2 ===0) {
          numbers[i] = numbers[i] * 2
-     } else {
+     } else  { (numbers[i] % 2 !==0)
+
          numbers[i] = numbers[i] * 3
      }
 }
